@@ -44,7 +44,7 @@
 //
 #if TEMP_SENSOR_0 == 1000
   #define HOTEND0_PULLUP_RESISTOR_OHMS 4700    // Pullup resistor
-  #define HOTEND0_RESISTANCE_25C_OHMS  100000  // Resistance at 25C
+  #define HOTEND0_RESISTANCE_25C_OHMS  57120  // Resistance at 25C
   #define HOTEND0_BETA                 3950    // Beta value
 #endif
 
