@@ -5,7 +5,7 @@
 ![GitHub Release Date](https://img.shields.io/github/release-date/marlinfirmware/marlin.svg)
 [![Build Status](https://github.com/MarlinFirmware/Marlin/workflows/CI/badge.svg?branch=bugfix-2.0.x)](https://github.com/MarlinFirmware/Marlin/actions)
 
-# NOTE: THIS BUILD IS FOR MAKERBOTS/CLONES THAT USE THERMISTORS INSTEAD OF THERMOCOUPLE'S!
+# NOTE: THIS BUILD IS FOR MAKERBOTS/CLONES THAT USE THERMISTORS INSTEAD OF THERMOCOUPLE'S! AND WILL ALSO DISABLE THE LEFT EXTRUDER.
 
 <img align="right" width=175 src="buildroot/share/pixmaps/logo/marlin-250.png" />
 
