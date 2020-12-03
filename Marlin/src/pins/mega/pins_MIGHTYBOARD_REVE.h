@@ -133,15 +133,18 @@
 //  2 E4 CS2
 // 78 E2 SCK
 //
-#define THERMO_SCK_PIN                        78  // E2
-#define THERMO_DO_PIN                          3  // E5
-#define THERMO_CS1_PIN                         5  // E3
-#define THERMO_CS2_PIN                         2  // E4
+// #define THERMO_SCK_PIN                        78  // E2
+// #define THERMO_DO_PIN                          3  // E5
+// #define THERMO_CS1_PIN                         5  // E3
+// #define THERMO_CS2_PIN                         2  // E4
 
-#define MAX6675_SS_PIN            THERMO_CS1_PIN
-#define MAX6675_SS2_PIN           THERMO_CS2_PIN
-#define MAX6675_SCK_PIN           THERMO_SCK_PIN
-#define MAX6675_DO_PIN             THERMO_DO_PIN
+#define TEMP_0_PIN                             14
+//#define TEMP_1_PIN                             68
+
+// #define MAX6675_SS_PIN            THERMO_CS1_PIN
+// #define MAX6675_SS2_PIN           THERMO_CS2_PIN
+// #define MAX6675_SCK_PIN           THERMO_SCK_PIN
+// #define MAX6675_DO_PIN             THERMO_DO_PIN
 
 //
 // Augmentation for auto-assigning plugs
@@ -154,8 +157,8 @@
 // Labels from the schematic:
 #define EX1_HEAT_PIN                           6  // H3
 #define EX1_FAN_PIN                            7  // H4
-#define EX2_HEAT_PIN                          11  // B5
-#define EX2_FAN_PIN                           12  // B6
+// #define EX2_HEAT_PIN                          11  // B5
+// #define EX2_FAN_PIN                           12  // B6
 #define HBP_PIN                               45  // L4
 #define EXTRA_FET_PIN                         44  // L5
 
@@ -176,7 +179,7 @@
 //
 #define HEATER_0_PIN                EX1_HEAT_PIN
   #define FAN_PIN                    EX1_FAN_PIN
-  #define FAN1_PIN                   EX2_FAN_PIN 
+  // #define FAN1_PIN                   EX2_FAN_PIN 
 
 #if ENABLED(IS_EFB)                               // Hotend, Fan, Bed
   #define HEATER_BED_PIN                 HBP_PIN
