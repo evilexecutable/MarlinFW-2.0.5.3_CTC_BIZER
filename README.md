@@ -5,6 +5,8 @@
 ![GitHub Release Date](https://img.shields.io/github/release-date/marlinfirmware/marlin.svg)
 [![Build Status](https://github.com/MarlinFirmware/Marlin/workflows/CI/badge.svg?branch=bugfix-2.0.x)](https://github.com/MarlinFirmware/Marlin/actions)
 
+# NOTE: THIS BUILD IS FOR MAKERBOTS/CLONES THAT USER THERMISTORS INSTEAD OF THERMOCOUPLE'S!
+
 <img align="right" width=175 src="buildroot/share/pixmaps/logo/marlin-250.png" />
 
 Additional documentation can be found at the [Marlin Home Page](http://marlinfw.org/).
