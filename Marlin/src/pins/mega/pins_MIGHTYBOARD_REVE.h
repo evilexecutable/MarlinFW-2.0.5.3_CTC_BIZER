@@ -178,7 +178,8 @@
 // Heaters / Fans (24V)
 //
 #define HEATER_0_PIN                EX1_HEAT_PIN
-  #define FAN_PIN                    EX1_FAN_PIN
+  //#define FAN_PIN                    EX1_FAN_PIN
+  #define FAN_PIN                       -1
   // #define FAN1_PIN                   EX2_FAN_PIN 
 
 #if ENABLED(IS_EFB)                               // Hotend, Fan, Bed
