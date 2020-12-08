@@ -488,9 +488,9 @@
 //#define DEFAULT_Ki 1.22
 //#define DEFAULT_Kd 82.05
 
-#define DEFAULT_Kp 11.08
-#define DEFAULT_Ki 0.50
-#define DEFAULT_Kd 61.29
+#define DEFAULT_Kp 19.82
+#define DEFAULT_Ki 1.67
+#define DEFAULT_Kd 58.86
 
   // Ultimaker
   //#define DEFAULT_Kp 22.2
@@ -739,7 +739,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT { 93.07, 92.77,400.55, 98.30}
+#define DEFAULT_AXIS_STEPS_PER_UNIT { 98.48, 92.77, 421.63, 98.30}
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -1105,7 +1105,7 @@
 #define Y_BED_SIZE 150
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
-#define X_MIN_POS -51
+#define X_MIN_POS -37
 #define Y_MIN_POS -1
 #define Z_MIN_POS 0
 #define X_MAX_POS 230
