@@ -406,7 +406,7 @@
  *   998 : Dummy Table that ALWAYS reads 25°C or the temperature defined below.
  *   999 : Dummy Table that ALWAYS reads 100°C or the temperature defined below.
  */
-#define TEMP_SENSOR_0 11 //70 +270c reading | 60 +272 reading | 15 +275 reading | 12 +180 reading
+#define TEMP_SENSOR_0 1 //70 +270c reading | 60 +272 reading | 15 +275 reading | 12 +180 reading
 #define TEMP_SENSOR_1 0
 #define TEMP_SENSOR_2 0
 #define TEMP_SENSOR_3 0
@@ -1108,8 +1108,8 @@
 #define X_MIN_POS -37
 #define Y_MIN_POS -1
 #define Z_MIN_POS 0
-#define X_MAX_POS 230
-#define Y_MAX_POS 150
+#define X_MAX_POS X_BED_SIZE
+#define Y_MAX_POS Y_BED_SIZE
 #define Z_MAX_POS 150
 
 /**
