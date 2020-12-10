@@ -92,6 +92,7 @@
 #endif
 
 #define MARLIN_WEBSITE_URL "http://marlinfw.org"
+#define CUSTOM_BOOT_LINE2 "Thermistor Edition!"
 
 //#if !defined(STRING_SPLASH_LINE3) && defined(WEBSITE_URL)
 //  #define STRING_SPLASH_LINE3 WEBSITE_URL

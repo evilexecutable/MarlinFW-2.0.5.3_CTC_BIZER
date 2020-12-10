@@ -468,7 +468,7 @@ void MarlinUI::clear_lcd() { lcd.clear(); }
       // Show the Marlin logo, splash line1, and splash line 2
       //
       logo_lines(PSTR(" " SHORT_BUILD_VERSION));
-      CENTER_OR_SCROLL(MARLIN_WEBSITE_URL, 2000);
+      CENTER_OR_SCROLL(CUSTOM_BOOT_LINE2, 2000);
     }
     else {
       //
@@ -478,7 +478,7 @@ void MarlinUI::clear_lcd() { lcd.clear(); }
       extern const char NUL_STR[];
       logo_lines(NUL_STR);
       CENTER_OR_SCROLL(SHORT_BUILD_VERSION, 1500);
-      CENTER_OR_SCROLL(MARLIN_WEBSITE_URL, 1500);
+      CENTER_OR_SCROLL(CUSTOM_BOOT_LINE2, 1500);
       #ifdef STRING_SPLASH_LINE3
         CENTER_OR_SCROLL(STRING_SPLASH_LINE3, 1500);
       #endif
